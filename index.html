@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Mixed Messages</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark bg-dark justify-content-between">
+                <a class="navbar-brand">
+                    <img id="logo" src="image/logo.jpg">
+                </a>
+                <form class="form-inline">
+                    <button  class="btn btn-outline-success my-2 my-sm-0" 
+                    onClick="refreshPage();"
+                    >refresh The Page</button>
+                </form>
+            </nav>
+                      
+        </header>
+        <div class="background">
+             <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <button  class="close">&times;</button>
+                    <p id="quote">
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-dark text-white">
+           
+            &copy; Kinan Mohrez 
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
